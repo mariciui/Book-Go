@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="119dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginRight="117dp"
+        android:layout_marginBottom="66dp"
+        android:text="Hotel"
+        app:layout_constraintBottom_toTopOf="@+id/editText5"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText19" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="119dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="66dp"
+        android:text="Apartament"
+        app:layout_constraintBottom_toTopOf="@+id/editText5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText19" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginRight="103dp"
+        android:layout_marginBottom="41dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Data Inceput"
+        app:layout_constraintBottom_toTopOf="@+id/editText15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginRight="103dp"
+        android:layout_marginBottom="47dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Data Sfarsit"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="149dp"
+        android:layout_marginLeft="149dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="88dp"
+        android:text="Confirmare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText17"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Locatie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText19"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Pret"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText17" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
